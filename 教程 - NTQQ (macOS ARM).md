@@ -37,6 +37,9 @@ cp /Applications/QQ.app/Contents/Resources/app/wrapper.node .
 
 <img src="img/image-mac-4.webp" alt="Address" width="70%" />
 
+注意：
+如果不能拿到 nt_sqlite3_key_v2 的引用地址，可以尝试使用 `objdump`。
+
 ## 3. 断点 & 调试
 
 随后我们运行 NTQQ，找到它的进程 ID，并且使用 LLDB 进行调试：
